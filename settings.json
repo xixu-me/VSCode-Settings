@@ -1,0 +1,180 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "accessibility.voice.speechLanguage": "zh-CN",
+  "amazonQ.telemetry": false,
+  // "C_Cpp.intelliSenseEngine": "disabled",
+  "CangjieSdkPath.CJNativeBackend": "D:\\cangjie",
+  "chat.editing.confirmEditRequestRemoval": false,
+  "chat.mcp.discovery.enabled": {
+    "claude-desktop": true
+  },
+  "chat.tools.autoApprove": true,
+  "debug.onTaskErrors": "showErrors",
+  "diffEditor.maxComputationTime": 0,
+  "dotnetAcquisitionExtension.enableTelemetry": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.codeActionsOnSave": {
+    "source.convertImportFormat": "always",
+    "source.fixAll": "always",
+    "source.fixAll.markdownlint": "always",
+    "source.fixAll.pylance": "always",
+    "source.fixAll.ruff": "always",
+    "source.organizeImports": "always",
+    "source.organizeImports.ruff": "always",
+    "source.organizeLinkDefinitions": "always",
+    "source.sort.json": "always",
+    "source.unusedImports": "always"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "'Monaspace Neon Var', monospace",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.mouseWheelZoom": false,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true,
+    "zh-hant": true
+  },
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "extensions.autoCheckUpdates": true,
+  "extensions.autoUpdate": true,
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+  // "github.copilot.chat.localeOverride": "zh-CN",
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": true,
+    "scminput": true
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:claude-sonnet-4",
+  "gitlens.telemetry.enabled": false,
+  // "http.proxySupport": "on",
+  "jupyter.askForKernelRestart": false,
+  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "markdown-preview-enhanced.enableCriticMarkupSyntax": true,
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+  "markdown-preview-enhanced.enableHTML5Embed": true,
+  "markdown-preview-enhanced.enablePreviewZenMode": true,
+  "markdown-preview-enhanced.enableTypographer": true,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.revealjsTheme": "black.css",
+  "notebook.formatOnSave.enabled": true,
+  "notebook.lineNumbers": "on",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "standard",
+  "redhat.telemetry.enabled": false,
+  "remote.SSH.configFile": "E:\\OneDrive\\Documents\\.ssh\\config",
+  "remoteHub.commitDirectlyWarning": "off",
+  "ruff.configuration": {
+    "format": {
+      "quote-style": "double"
+    }
+  },
+  "ruff.lineLength": 88,
+  "ruff.lint.select": ["E", "F", "W", "I", "B", "C4", "UP"],
+  "ruff.nativeServer": "on",
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "security.workspace.trust.enabled": false,
+  "telemetry.feedback.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.defaultProfile.windows": "Powershell (conda)",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "args": [],
+      "icon": "terminal-cmd",
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ]
+    },
+    "Command Prompt (conda)": {
+      "args": ["/K", "D:\\miniconda3\\Scripts\\activate.bat", "D:\\miniconda3"],
+      "icon": "terminal-cmd",
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ]
+    },
+    "Gemini": {
+      "overrideName": true,
+      "path": "gemini"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "PowerShell": {
+      "icon": "terminal-powershell",
+      "source": "PowerShell"
+    },
+    "Powershell (conda)": {
+      "args": [
+        "-ExecutionPolicy",
+        "ByPass",
+        "-NoExit",
+        "-Command",
+        "& 'D:\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'D:\\miniconda3'"
+      ],
+      "icon": "terminal-powershell",
+      "source": "PowerShell"
+    }
+  },
+  "terminal.integrated.sendKeybindingsToShell": false,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.suggest.enabled": true,
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.smoothScrolling": true
+}
