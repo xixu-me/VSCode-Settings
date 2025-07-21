@@ -1,4 +1,4 @@
-# VSCode Settings
+# VS Code Settings
 
 ***[汉语](README.zh.md)***
 
@@ -56,7 +56,7 @@ For the best experience, install these extensions:
 ### Method 1: Direct Copy
 
 ```bash
-# Navigate to VSCode settings directory
+# Navigate to VS Code settings directory
 # Windows: %APPDATA%\Code\User\
 # macOS: ~/Library/Application Support/Code/User/
 # Linux: ~/.config/Code/User/
@@ -68,7 +68,7 @@ curl -o settings.json https://raw.githubusercontent.com/xixu-me/VSCode-Settings/
 ### Method 2: Manual Installation
 
 1. Download `settings.json` from this repository
-2. Open VSCode Settings (JSON): `Ctrl/Cmd + ,` → "Open Settings (JSON)" icon
+2. Open VS Code Settings (JSON): `Ctrl/Cmd + ,` → "Open Settings (JSON)" icon
 3. Replace content with the downloaded configuration
 
 ## 🎨 Customization

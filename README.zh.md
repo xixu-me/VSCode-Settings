@@ -1,4 +1,4 @@
-# VSCode 设置
+# VS Code 设置
 
 ***[English](README.md)***
 
@@ -56,7 +56,7 @@
 ### 方法一：直接复制
 
 ```bash
-# 导航到 VSCode 设置目录
+# 导航到 VS Code 设置目录
 # Windows: %APPDATA%\Code\User\
 # macOS: ~/Library/Application Support/Code/User/
 # Linux: ~/.config/Code/User/
@@ -68,7 +68,7 @@ curl -o settings.json https://raw.githubusercontent.com/xixu-me/VSCode-Settings/
 ### 方法二：手动安装
 
 1. 从本仓库下载 `settings.json` 文件
-2. 打开 VSCode 设置 (JSON)：`Ctrl/Cmd + ,` → "打开设置 (JSON)"图标
+2. 打开 VS Code 设置 (JSON)：`Ctrl/Cmd + ,` → "打开设置 (JSON)"图标
 3. 用下载的配置替换内容
 4. 保存文件
 
