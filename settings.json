@@ -126,6 +126,7 @@
   "ruff.nativeServer": "on",
   "security.allowedUNCHosts": ["wsl.localhost"],
   "security.workspace.trust.enabled": false,
+  "telemetry.editStats.enabled": false,
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.copyOnSelection": true,
