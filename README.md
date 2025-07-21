@@ -18,31 +18,6 @@ This repository contains a carefully crafted Visual Studio Code settings configu
 - **Extension optimization** - Telemetry disabled and performance-focused settings
 - **Developer-friendly defaults** - Reduced confirmation dialogs and smart suggestions
 
-## 🚀 Usage
-
-### Quick Setup
-
-1. Backup your existing VSCode settings (if any)
-2. Copy the `settings.json` content to your VSCode user settings
-3. Install recommended extensions for optimal experience
-4. Restart VSCode to apply all changes
-
-### Accessing VSCode Settings
-
-- **Windows/Linux**: `Ctrl + ,` or File → Preferences → Settings
-- **macOS**: `Cmd + ,` or Code → Preferences → Settings
-- Click the "Open Settings (JSON)" icon in the top-right corner
-
-## 🔧 Configuration Highlights
-
-This configuration includes optimizations for:
-
-- **Language Support**: JavaScript, TypeScript, Python, HTML, CSS, Markdown, Docker, YAML, and more
-- **Code Quality**: Integrated linting, formatting, and auto-fixing
-- **Performance**: Optimized computation limits and smooth animations
-- **Accessibility**: Unicode support for Chinese characters and multiple locales
-- **Privacy**: Telemetry disabled across multiple extensions
-
 ## 📋 Prerequisites
 
 ### Required Extensions
@@ -81,24 +56,20 @@ For the best experience, install these extensions:
 ### Method 1: Direct Copy
 
 ```bash
-# Navigate to your VSCode settings directory
+# Navigate to VSCode settings directory
 # Windows: %APPDATA%\Code\User\
 # macOS: ~/Library/Application Support/Code/User/
 # Linux: ~/.config/Code/User/
 
-# Backup existing settings
-cp settings.json settings.json.backup
-
-# Copy new settings
+cp settings.json settings.json.backup  # Backup existing settings
 curl -o settings.json https://raw.githubusercontent.com/xixu-me/VSCode-Settings/main/settings.json
 ```
 
 ### Method 2: Manual Installation
 
-1. Download the `settings.json` file from this repository
-2. Open VSCode Settings (JSON)
-3. Replace the content with the downloaded configuration
-4. Save the file
+1. Download `settings.json` from this repository
+2. Open VSCode Settings (JSON): `Ctrl/Cmd + ,` → "Open Settings (JSON)" icon
+3. Replace content with the downloaded configuration
 
 ## 🎨 Customization
 
@@ -116,7 +87,11 @@ Feel free to modify the configuration according to your needs:
   - **Font Ligatures**: Configured with `'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'` for optimal coding experience
 
 - **Theme**: Change `workbench.colorTheme` and `workbench.iconTheme`
-- **Formatters**: Adjust language-specific formatter preferences
+- **Formatters**: Adjust language-specific formatter preferences and auto-formatting behavior
+  - **Multi-Language Support**: Pre-configured formatters for CSS, HTML, JavaScript, TypeScript, Python, Markdown, YAML, XML, and more
+  - **Format-on-Save**: Automatic code formatting when saving files (`editor.formatOnSave: true`)
+  - **Format-on-Type**: Real-time formatting as you type (`editor.formatOnType: true`)
+  - **Code Actions**: Auto-fix imports, organize code, and apply linting rules on save
 - **Terminal**: Modify terminal profiles in `terminal.integrated.profiles.windows`
 
 ## 📄 License
@@ -125,18 +100,10 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## ⚠️ Disclaimer
 
-**Important Notice**: This configuration is provided as-is and reflects personal preferences and workflows. Please review and test the settings before applying them to your development environment.
+**Important**: This configuration reflects personal preferences. Please backup your existing settings and review the configuration before applying.
 
-### Before Using
+**Considerations**: Some settings may override your preferences, paths might need adjustment for your system, and terminal profiles are configured for Windows with conda.
 
-- **Backup your existing settings** - Always create a backup of your current VSCode configuration
-- **Review the configuration** - Examine settings that may affect your workflow
-- **Test incrementally** - Consider applying sections gradually rather than all at once
-- **Extension compatibility** - Ensure you have the required extensions installed
+---
 
-### Potential Considerations
-
-- Some settings may override your existing preferences
-- Path configurations might need adjustment for your system
-- Certain extensions may require separate installation
-- Terminal profiles are configured for Windows with conda
+Made with ❤️ for the developer community
