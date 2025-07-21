@@ -133,6 +133,10 @@
   "terminal.integrated.defaultProfile.windows": "Powershell (conda)",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.profiles.windows": {
+    "Claude": {
+      "overrideName": true,
+      "path": "claude"
+    },
     "Command Prompt": {
       "args": [],
       "icon": "terminal-cmd",
