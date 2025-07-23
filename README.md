@@ -48,6 +48,12 @@ For the best experience, install these extensions:
 
 ### AI Development Tools
 
+- **[Qwen Code](https://github.com/QwenLM/qwen-code)**: Command-line AI workflow tool optimized for Qwen3-Coder models
+  - **Installation**: `npm install -g @qwen-code/qwen-code`
+  - **Features**: Enhanced parser for Qwen-Coder models, large codebase understanding, workflow automation
+  - **Code Capabilities**: Query and edit beyond context limits, automate pull requests and complex rebases
+  - **Configuration**: OpenAI-compatible API support with custom base URLs and models
+
 - **[Claude Code](https://github.com/anthropic-ai/claude-code)**: Advanced AI-powered coding assistant
   - **Installation & Management**: Use the comprehensive [Claude Code Toolkit](https://github.com/xixu-me/Claude-Code-Toolkit) for easy installation and multi-provider management
   - **Features**: Context-aware code generation, debugging assistance, and refactoring support

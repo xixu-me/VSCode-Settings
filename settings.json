@@ -177,6 +177,10 @@
       ],
       "icon": "terminal-powershell",
       "source": "PowerShell"
+    },
+    "Qwen": {
+      "overrideName": true,
+      "path": "qwen"
     }
   },
   "terminal.integrated.sendKeybindingsToShell": false,

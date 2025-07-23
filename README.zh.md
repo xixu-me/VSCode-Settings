@@ -48,6 +48,12 @@
 
 ### AI 开发工具
 
+- **[Qwen Code](https://github.com/QwenLM/qwen-code)**: 为 Qwen3-Coder 模型优化的命令行 AI 工作流工具
+  - **安装**: `npm install -g @qwen-code/qwen-code`
+  - **功能特性**: 为 Qwen-Coder 模型增强的解析器、大型代码库理解、工作流自动化
+  - **代码能力**: 超越上下文限制的查询和编辑、自动化拉取请求和复杂变基操作
+  - **配置**: 支持 OpenAI 兼容 API，可自定义基础 URL 和模型
+
 - **[Claude Code](https://github.com/anthropic-ai/claude-code)**: 先进的 AI 编程助手
   - **安装和管理**: 使用全面的 [Claude Code 工具包](https://github.com/xixu-me/Claude-Code-Toolkit) 轻松安装和管理多提供商
   - **功能特性**: 上下文感知的代码生成、调试辅助和重构支持
