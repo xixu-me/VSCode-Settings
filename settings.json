@@ -38,6 +38,8 @@
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "AI.toolcall.autoRun.command.denyList": "[\"rm\",\"rmdir\",\"del\",\"kill\",\"curl\",\"wget\",\"eval\",\"chmod\",\"chown\",\"Remove-Item\"]",
+  "AI.toolcall.confirmMode": "autoRun",
   // "accessibility.voice.speechLanguage": "zh-CN",
   "amazonQ.telemetry": false,
   // "C_Cpp.intelliSenseEngine": "disabled",
@@ -101,6 +103,7 @@
   "gitlens.telemetry.enabled": false,
   // "http.proxySupport": "on",
   "jupyter.askForKernelRestart": false,
+  "kiroAgent.enableTabAutocomplete": true,
   "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
   "markdown-preview-enhanced.enableCriticMarkupSyntax": true,
   "markdown-preview-enhanced.enableExtendedTableSyntax": true,
@@ -179,6 +182,8 @@
   "terminal.integrated.sendKeybindingsToShell": false,
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.suggest.enabled": true,
+  "trae.tab.enableAutoImport": true,
+  "trae.tab.enableAutoRename": true,
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true

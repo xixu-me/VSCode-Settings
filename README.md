@@ -2,11 +2,20 @@
 
 ***[汉语](README.zh.md)***
 
-Personal Visual Studio Code configuration file with customized preferences for formatting, editor behavior, and development workflows.
+Personal Visual Studio Code configuration file with customized preferences for formatting, editor behavior, and development workflows. This configuration is compatible with all [Code-OSS](https://github.com/microsoft/vscode)-based editors (VS Code, Trae, Kiro, etc.) and can be shared across multiple editors using symbolic links.
 
 ## 🔎 Overview
 
 This repository contains a carefully crafted Visual Studio Code settings configuration designed to enhance productivity and provide a consistent development experience across different programming languages and frameworks.
+
+**Cross-Editor Compatibility**: The `settings.json` file is fully compatible with all Code-OSS-based editors including:
+
+- Visual Studio Code
+- Trae
+- Kiro
+- Other VSCode-compatible editors
+
+**Shared Configuration**: You can use symbolic links to share the same configuration across multiple Code-OSS-based editors, ensuring consistent settings and workflows across your development environment.
 
 ## ✨ Features
 
@@ -70,6 +79,34 @@ curl -o settings.json https://raw.githubusercontent.com/xixu-me/VSCode-Settings/
 1. Download `settings.json` from this repository
 2. Open VS Code Settings (JSON): `Ctrl/Cmd + ,` → "Open Settings (JSON)" icon
 3. Replace content with the downloaded configuration
+
+### Method 3: Symbolic Links (Cross-Editor Sharing)
+
+To share the same configuration across multiple Code-OSS-based editors:
+
+**Linux:**
+
+```bash
+# Example: Link Trae and Kiro to use the same settings as VS Code
+ln -s "~/.config/Code/User/settings.json" "~/.config/Trae/User/settings.json"
+ln -s "~/.config/Code/User/settings.json" "~/.config/Kiro/User/settings.json"
+```
+
+**macOS:**
+
+```bash
+# Example: Link Trae and Kiro to use the same settings as VS Code
+ln -s "~/Library/Application Support/Code/User/settings.json" "~/Library/Application Support/Trae/User/settings.json"
+ln -s "~/Library/Application Support/Code/User/settings.json" "~/Library/Application Support/Kiro/User/settings.json"
+```
+
+**Windows (PowerShell):**
+
+```powershell
+# Example: Link Trae and Kiro to use the same settings as VS Code
+New-Item -ItemType SymbolicLink -Path "$env:APPDATA\Trae\User\settings.json" -Target "$env:APPDATA\Code\User\settings.json"
+New-Item -ItemType SymbolicLink -Path "$env:APPDATA\Kiro\User\settings.json" -Target "$env:APPDATA\Code\User\settings.json"
+```
 
 ## 🎨 Customization
 

@@ -2,11 +2,20 @@
 
 ***[English](README.md)***
 
-个人 Visual Studio Code 配置文件，包含用于格式化、编辑器行为和开发工作流的自定义首选项。
+个人 Visual Studio Code 配置文件，包含用于格式化、编辑器行为和开发工作流的自定义首选项。此配置兼容所有基于 [Code-OSS](https://github.com/microsoft/vscode) 的编辑器（VS Code、Trae、Kiro 等），并可通过符号链接在多个编辑器间共享。
 
 ## 🔎 概述
 
 本仓库包含精心制作的 Visual Studio Code 设置配置，旨在提高生产力并为不同编程语言和框架提供一致的开发体验。
+
+**跨编辑器兼容性**：`settings.json` 文件完全兼容所有基于 Code-OSS 的编辑器，包括：
+
+- Visual Studio Code
+- Trae
+- Kiro
+- 其他 VSCode 兼容编辑器
+
+**共享配置**：您可以使用符号链接在多个基于 Code-OSS 的编辑器间共享相同配置，确保开发环境中设置和工作流的一致性。
 
 ## ✨ 功能特性
 
@@ -71,6 +80,34 @@ curl -o settings.json https://raw.githubusercontent.com/xixu-me/VSCode-Settings/
 2. 打开 VS Code 设置 (JSON)：`Ctrl/Cmd + ,` → "打开设置 (JSON)"图标
 3. 用下载的配置替换内容
 4. 保存文件
+
+### 方法三：符号链接（跨编辑器共享）
+
+在多个基于 Code-OSS 的编辑器间共享相同配置：
+
+**Linux:**
+
+```bash
+# 示例：让 Trae 和 Kiro 使用与 VS Code 相同的设置
+ln -s "~/.config/Code/User/settings.json" "~/.config/Trae/User/settings.json"
+ln -s "~/.config/Code/User/settings.json" "~/.config/Kiro/User/settings.json"
+```
+
+**macOS:**
+
+```bash
+# 示例：让 Trae 和 Kiro 使用与 VS Code 相同的设置
+ln -s "~/Library/Application Support/Code/User/settings.json" "~/Library/Application Support/Trae/User/settings.json"
+ln -s "~/Library/Application Support/Code/User/settings.json" "~/Library/Application Support/Kiro/User/settings.json"
+```
+
+**Windows (PowerShell):**
+
+```powershell
+# 示例：让 Trae 和 Kiro 使用与 VS Code 相同的设置
+New-Item -ItemType SymbolicLink -Path "$env:APPDATA\Trae\User\settings.json" -Target "$env:APPDATA\Code\User\settings.json"
+New-Item -ItemType SymbolicLink -Path "$env:APPDATA\Kiro\User\settings.json" -Target "$env:APPDATA\Code\User\settings.json"
+```
 
 ## 🎨 自定义设置
 
