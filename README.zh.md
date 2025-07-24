@@ -13,7 +13,8 @@
 - Visual Studio Code
 - Trae
 - Kiro
-- 其他 VSCode 兼容编辑器
+- Lingma
+- 其他 VS Code 兼容编辑器
 
 **共享配置**：您可以使用符号链接在多个基于 Code-OSS 的编辑器间共享相同配置，确保开发环境中设置和工作流的一致性。
 

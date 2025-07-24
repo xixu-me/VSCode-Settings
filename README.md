@@ -13,7 +13,8 @@ This repository contains a carefully crafted Visual Studio Code settings configu
 - Visual Studio Code
 - Trae
 - Kiro
-- Other VSCode-compatible editors
+- Lingma
+- Other VS Code-compatible editors
 
 **Shared Configuration**: You can use symbolic links to share the same configuration across multiple Code-OSS-based editors, ensuring consistent settings and workflows across your development environment.
 
