@@ -141,7 +141,7 @@ New-Item -ItemType SymbolicLink -Path "$env:APPDATA\Kiro\User\settings.json" -Ta
 
 ## 📄 许可证
 
-本项目根据 GNU 通用公共许可证 v3.0 许可 - 有关详细信息，请参见 [LICENSE](LICENSE) 文件。
+本项目根据 MIT 许可 - 有关详细信息，请参见 [LICENSE](LICENSE) 文件。
 
 ## ⚠️ 免责声明
 
