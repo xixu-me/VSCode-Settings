@@ -45,6 +45,7 @@
   // "C_Cpp.intelliSenseEngine": "disabled",
   "CangjieSdkPath.CJNativeBackend": "D:\\cangjie",
   "chat.editing.confirmEditRequestRemoval": false,
+  "chat.mcp.autostart": "newAndOutdated",
   "chat.mcp.discovery.enabled": {
     "claude-desktop": true
   },
