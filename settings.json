@@ -147,6 +147,10 @@
       "overrideName": true,
       "path": "ccr"
     },
+    "Codex": {
+      "overrideName": true,
+      "path": "codex"
+    },
     "Command Prompt": {
       "args": [],
       "icon": "terminal-cmd",
