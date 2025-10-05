@@ -41,7 +41,6 @@
   "AI.toolcall.autoRun.command.denyList": "[\"rm\",\"rmdir\",\"del\",\"kill\",\"curl\",\"wget\",\"eval\",\"chmod\",\"chown\",\"Remove-Item\"]",
   "AI.toolcall.confirmMode": "autoRun",
   // "accessibility.voice.speechLanguage": "zh-CN",
-  "amazonQ.telemetry": false,
   // "C_Cpp.intelliSenseEngine": "disabled",
   "CangjieSdkPath.CJNativeBackend": "D:\\cangjie",
   "chat.agent.maxRequests": 1e42,
@@ -50,7 +49,7 @@
   "chat.mcp.discovery.enabled": {
     "claude-desktop": true
   },
-  "chat.tools.autoApprove": true,
+  "chat.tools.global.autoApprove": true,
   "debug.onTaskErrors": "showErrors",
   "diffEditor.maxComputationTime": 0,
   "dotnetAcquisitionExtension.enableTelemetry": false,
