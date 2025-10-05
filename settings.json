@@ -59,6 +59,7 @@
   "editor.codeActionsOnSave": {
     "source.convertImportFormat": "always",
     "source.fixAll": "always",
+    "source.fixAll.eslint": "always",
     "source.fixAll.markdownlint": "always",
     "source.fixAll.pylance": "always",
     "source.fixAll.ruff": "always",
