@@ -43,7 +43,7 @@
   // "accessibility.voice.speechLanguage": "zh-CN",
   // "C_Cpp.intelliSenseEngine": "disabled",
   "CangjieSdkPath.CJNativeBackend": "D:\\cangjie",
-  "chat.agent.maxRequests": 1e42,
+  "chat.agent.maxRequests": 1e99,
   "chat.editing.confirmEditRequestRemoval": false,
   "chat.mcp.autostart": "newAndOutdated",
   "chat.mcp.discovery.enabled": {
