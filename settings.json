@@ -49,7 +49,7 @@
   "chat.editing.confirmEditRequestRemoval": false,
   "chat.mcp.autostart": "newAndOutdated",
   "chat.mcp.discovery.enabled": {
-    "claude-desktop": true
+    "cursor-global": true
   },
   "chat.mcp.gallery.enabled": true,
   "chat.tools.global.autoApprove": true,
