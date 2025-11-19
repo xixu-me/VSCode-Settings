@@ -40,6 +40,8 @@
   },
   "AI.toolcall.autoRun.command.denyList": "[\"rm\",\"rmdir\",\"del\",\"kill\",\"curl\",\"wget\",\"eval\",\"chmod\",\"chown\",\"Remove-Item\"]",
   "AI.toolcall.confirmMode": "autoRun",
+  "antigravity.marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
+  "antigravity.marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items",
   // "accessibility.voice.speechLanguage": "zh-CN",
   // "C_Cpp.intelliSenseEngine": "disabled",
   "CangjieSdkPath.CJNativeBackend": "D:\\cangjie",
@@ -146,9 +148,8 @@
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.profiles.windows": {
     "Claude": {
-      "args": ["code"],
       "overrideName": true,
-      "path": "ccr"
+      "path": "claude"
     },
     "Codex": {
       "overrideName": true,
