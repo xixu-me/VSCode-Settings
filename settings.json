@@ -56,7 +56,6 @@
   "chat.mcp.gallery.enabled": true,
   "chat.tools.global.autoApprove": true,
   "claudeCode.initialPermissionMode": "acceptEdits",
-  "claudeCode.preferredLocation": "sidebar",
   "debug.onTaskErrors": "showErrors",
   "diffEditor.maxComputationTime": 0,
   "dotnetAcquisitionExtension.enableTelemetry": false,
